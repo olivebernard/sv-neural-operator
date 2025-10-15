@@ -1,0 +1,19 @@
+{
+  "strike_nodes": 56,
+  "maturities": [
+    0.12,
+    0.25,
+    0.5,
+    0.85,
+    1.2
+  ],
+  "nonuniform_spacing_ratio": 35.018847922097315,
+  "reported_monotonicity_penalty": 0.0,
+  "reported_data_loss": 0.0006365359877236187,
+  "reported_total_loss": 0.0006365359877236187,
+  "fno_forward_shape": [
+    1,
+    5,
+    56
+  ]
+}

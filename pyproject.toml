@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sv-neural-operator"
+version = "0.8.3"
+description = "Fourier Neural Operator pour surfaces Heston"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "scipy>=1.14", "torch>=2.2", "matplotlib>=3.8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
